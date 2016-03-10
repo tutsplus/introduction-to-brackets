@@ -1,0 +1,106 @@
+
+body {
+
+    color: #999;
+
+    font-size: 14px;
+
+    letter-spacing: 0.2px;
+
+    border-top: 3px solid #4f438b;
+
+    padding-top: 20px;
+
+}
+
+.container {
+
+    width: 800px;
+
+    margin: 0 auto;
+
+}
+
+/* ---------------- HEADER ---------------- */
+
+header {
+
+    border-bottom: 4px solid #b44c4c;
+
+}
+
+header h1 {
+
+    color: #4c76b4;
+
+    font-size: 20px;
+
+    text-transform: uppercase;
+
+    margin-bottom: 0;
+
+}
+
+header h3 {
+
+    color: #777;
+
+    font-size: 16px;
+
+    margin-bottom: 10px;
+
+    margin-top: 0px;
+
+}
+
+header hgroup {
+
+    width: 300px;
+
+    float: left;
+
+}
+
+header nav {
+
+    float: right;
+
+    width: 500px;
+
+}
+
+.main-nav {
+
+    list-style: none;
+
+    padding: 10px;
+
+}
+
+.main-nav li {
+
+    float: left;
+
+    margin-right: 10px;
+
+}
+
+.main-nav li a {
+
+    color: #aaa;
+
+    text-decoration: none;
+
+    padding: 3px 10px;
+
+}
+
+.main-nav .active a {
+
+    background-color: #4c76b4;
+
+    color: white;
+
+    border-radius: 20px;
+
+}

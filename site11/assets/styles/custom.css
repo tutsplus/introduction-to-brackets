@@ -1,0 +1,275 @@
+
+body {
+
+    color: #999;
+
+    font-size: 14px;
+
+    letter-spacing: 0.2px;
+
+    border-top: 3px solid #4c76b4;
+
+    padding-top: 20px;
+
+}
+
+.container {
+
+    width: 800px;
+
+    margin: 0 auto;
+
+}
+
+/* --------------- CLEARFIX --------------- */
+
+.clearfix:after {
+
+    content: ".";
+
+    font-size: 0;
+
+    display: block;
+
+    clear: both;
+
+    visibility: hidden;
+
+    line-height: 0;
+
+    height: 0;
+
+}
+
+.clearfix {
+
+    display: inline-block;
+
+}
+
+html[xmlns] .clearfix {
+
+    display: block;
+
+}
+
+* html .clearfix {
+
+    height: 1%;
+
+}
+
+/* ---------------- HEADER ---------------- */
+
+header {
+
+    border-bottom: 4px solid #b44c4c;
+
+}
+
+header h1 {
+
+    color: #4c76b4;
+
+    font-size: 20px;
+
+    text-transform: uppercase;
+
+    margin-bottom: 0;
+
+}
+
+header h3 {
+
+    color: #777;
+
+    font-size: 16px;
+
+    margin-bottom: 10px;
+
+    margin-top: 0px;
+
+}
+
+header hgroup {
+
+    width: 300px;
+
+    float: left;
+
+}
+
+header nav {
+
+    float: right;
+
+    width: 500px;
+
+}
+
+.main-nav {
+
+    list-style: none;
+
+    padding: 10px;
+
+}
+
+.main-nav li {
+
+    float: left;
+
+    margin-right: 10px;
+
+}
+
+.main-nav li a {
+
+    color: #aaa;
+
+    text-decoration: none;
+
+    padding: 3px 10px;
+
+}
+
+.main-nav .active a {
+
+    background-color: #4c76b4;
+
+    color: white;
+
+    border-radius: 20px;
+
+}
+
+.feature img {
+
+    border-bottom-left-radius: 10px;
+
+    border-bottom-right-radius: 10px;
+
+    margin-bottom: 20px;
+
+}
+
+.register {
+
+    width: 300px;
+
+    float: left;
+
+    padding: 20px 0;
+
+    box-sizing: border-box;
+
+}
+
+.main-text {
+
+    width: 500px;
+
+    float: left;
+
+    box-sizing: border-box;
+
+    padding-left: 20px;
+
+    border-left: 1px solid #ddd;
+
+}
+
+td,
+
+th {
+
+    padding: 5px;
+
+}
+
+th {
+
+    font-size: 18px;
+
+    padding-bottom: 10px;
+
+}
+
+.register table input {
+
+    border: 1px solid #ccc;
+
+    border-radius: 3px;
+
+    padding: 2px;
+
+    background-color: #fafafa;
+
+}
+
+.register table label {
+
+    font-size: 12px;
+
+}
+
+.register table button {
+
+    background-color: #b44c4c;
+
+    border: none;
+
+    color: #fff;
+
+    border-radius: 3px;
+
+    padding: 2px;
+
+    width: 100%;
+
+}
+.column-one-third {
+    background-color: #eee;
+    color: #555;
+    border-radius: 4px;
+    width: 32%;
+    float: left;
+    margin-right: 2%;
+}
+
+.column-one-third:last-child {
+    margin-right: 0;
+}
+
+.col-head {
+    background-color: #4c76b4;
+    color: white;
+    width: 100%;
+    padding: 5px;
+    box-sizing: border-box;
+    margin-top: 0;
+    margin-bottom: 4px;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+}
+
+.col-body {
+    padding: 0 5px;
+}
+
+.col-body p {
+    margin-top: 4px;
+    margin-bottom: 4px;
+}
+
+.row {
+    margin: 10px 0;
+}
+
+footer {
+    background-color: #4c76b4;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-size: 10px;
+}

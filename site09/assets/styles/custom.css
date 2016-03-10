@@ -1,0 +1,180 @@
+
+body {
+
+    color: #999;
+
+    font-size: 14px;
+
+    letter-spacing: 0.2px;
+
+    border-top: 3px solid #4f438b;
+
+    padding-top: 20px;
+
+}
+
+.container {
+
+    width: 800px;
+
+    margin: 0 auto;
+
+}
+
+/* --------------- CLEARFIX --------------- */
+
+.clearfix:after {
+
+    content: ".";
+
+    font-size: 0;
+
+    display: block;
+
+    clear: both;
+
+    visibility: hidden;
+
+    line-height: 0;
+
+    height: 0;
+
+}
+
+.clearfix {
+
+    display: inline-block;
+
+}
+
+html[xmlns] .clearfix {
+
+    display: block;
+
+}
+
+* html .clearfix {
+
+    height: 1%;
+
+}
+
+/* ---------------- HEADER ---------------- */
+
+header {
+
+    border-bottom: 4px solid #b44c4c;
+
+}
+
+header h1 {
+
+    color: #4c76b4;
+
+    font-size: 20px;
+
+    text-transform: uppercase;
+
+    margin-bottom: 0;
+
+}
+
+header h3 {
+
+    color: #777;
+
+    font-size: 16px;
+
+    margin-bottom: 10px;
+
+    margin-top: 0px;
+
+}
+
+header hgroup {
+
+    width: 300px;
+
+    float: left;
+
+}
+
+header nav {
+
+    float: right;
+
+    width: 500px;
+
+}
+
+.main-nav {
+
+    list-style: none;
+
+    padding: 10px;
+
+}
+
+.main-nav li {
+
+    float: left;
+
+    margin-right: 10px;
+
+}
+
+.main-nav li a {
+
+    color: #aaa;
+
+    text-decoration: none;
+
+    padding: 3px 10px;
+
+}
+
+.main-nav .active a {
+
+    background-color: #4c76b4;
+
+    color: white;
+
+    border-radius: 20px;
+
+}
+
+.feature img {
+
+    border-bottom-left-radius: 10px;
+
+    border-bottom-right-radius: 10px;
+
+    margin-bottom: 20px;
+
+}
+
+.register {
+
+    width: 300px;
+
+    float: left;
+
+    padding: 20px 0;
+
+    box-sizing: border-box;
+
+}
+
+.main-text {
+
+    width: 500px;
+
+    float: left;
+
+    box-sizing: border-box;
+
+    padding-left: 20px;
+
+    border-left: 1px solid #ddd;
+
+}
